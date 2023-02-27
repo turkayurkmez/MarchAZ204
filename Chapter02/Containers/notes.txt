@@ -1,0 +1,3 @@
+Demo'nun alındığı yer:
+
+git clone https://github.com/dotnet/dotnet-docker.git demo-v1
