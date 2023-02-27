@@ -1,0 +1,19 @@
+IaaS:
+  Sanal Makineler, Container gibi sadece ALTYAPI bileşenlerini sunar. Kullandığınız kaynak 
+  kadar ödeme yaparsınız. İşletim sistemi üzerinde istediğiniz işlemi yaparsınız.
+
+PaaS:
+  Yazılımcıların tercihi olan servislerdir. Uygulama yayınlama Azure'a aittir. 
+
+SaaS:
+  Bulut üzerinden yazılımı kiralarsınız. Sadece kimlerin bu yazılımı kullanacağını yönetirsiniz.
+  
+  
+--Kullanılacak araçlar:
+1. Azure CLI
+   https://learn.microsoft.com/en-us/cli/azure/install-azure-cli
+
+2. VS Code
+  https://code.visualstudio.com/Download
+
+
