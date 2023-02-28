@@ -1,0 +1,5 @@
+* App Service Plan -> App Services 
+* Bir planda birden fazla uygulama olabilir.
+* Scale Up ve Out için minimum plan standart olmalı
+* ASE (App Service Environment): İzole edilmiş (daha pahalı) sanal ağlar ve ortamlar da ayarlanabilir.
+
