@@ -1,0 +1,2 @@
+$pass = (az acr credential show -n "bademo" --query "passwords[0].value")
+az webapp config container set -g "rg-webApps" -n "bademo" -r "https://bademo.azurecr.io" -i "bademo.azurecr.io/demo:v2.0" -u "bademo" -p $pass

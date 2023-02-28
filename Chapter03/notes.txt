@@ -3,3 +3,7 @@
 * Scale Up ve Out için minimum plan standart olmalı
 * ASE (App Service Environment): İzole edilmiş (daha pahalı) sanal ağlar ve ortamlar da ayarlanabilir.
 
+Authentication & Authorization
+  Hiç kod yazmadan kimlik yönetimi yapabilir. 
+  PKCE Flow desteklenir (OAuth 2.0 - OIDC)
+  
