@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "P62I4JmSEEDx4l1F2A5nUf8xongR2CbV2LpzXc8z/giE05nsCnMgKoeV1eceteeJIuEeJynGF5Ow/wuEquS6sw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\BilgeAdam\\AZ204-Mart\\Chapter05\\2-table-sdk\\TheCloudShopsTableDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\turka\\.nuget\\packages\\azure.core\\1.22.0\\azure.core.1.22.0.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\azure.data.tables\\12.4.0\\azure.data.tables.12.4.0.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\system.memory.data\\1.0.2\\system.memory.data.1.0.2.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\system.text.encodings.web\\4.7.2\\system.text.encodings.web.4.7.2.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\system.text.json\\4.7.2\\system.text.json.4.7.2.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+  ],
+  "logs": []
+}
