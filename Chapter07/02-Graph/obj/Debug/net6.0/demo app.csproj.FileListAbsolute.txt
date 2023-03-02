@@ -1,0 +1,29 @@
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\demo app.exe
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\demo app.deps.json
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\demo app.runtimeconfig.json
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\demo app.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\demo app.pdb
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\Azure.Core.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\Microsoft.Graph.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\Microsoft.Graph.Core.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\Microsoft.Identity.Client.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\Microsoft.IdentityModel.Logging.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\Microsoft.IdentityModel.Tokens.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\System.Memory.Data.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\bin\Debug\net6.0\System.Text.Json.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\demo app.csproj.AssemblyReference.cache
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\demo app.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\demo app.AssemblyInfoInputs.cache
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\demo app.AssemblyInfo.cs
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\demo app.csproj.CoreCompileInputs.cache
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\demo app.csproj.CopyComplete
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\demo app.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\refint\demo app.dll
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\demo app.pdb
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\demo app.genruntimeconfig.cache
+C:\Users\turka\source\repos\Kurumsal\BilgeAdam\AZ204-Mart\Chapter07\02-Graph\obj\Debug\net6.0\ref\demo app.dll

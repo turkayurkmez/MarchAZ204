@@ -1,0 +1,9 @@
+{
+  "profiles": {
+    "_01_getSecret": {
+      "commandName": "Project",
+      "commandLineArgs": "--port 7294",
+      "launchBrowser": false
+    }
+  }
+}

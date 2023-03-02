@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "+n07CU/916x0QP1XKFjwjp4lZqfgSsHgnf4N/gj7ATMhiYhy6cL25leVJSZrspqke6Gqrhflt6aS31rfbv3w0A==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\turka\\source\\repos\\Kurumsal\\BilgeAdam\\AZ204-Mart\\Chapter07\\01-MSAL\\introduceMSAL\\introduceMSAL.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\turka\\.nuget\\packages\\microsoft.identity.client\\4.50.0\\microsoft.identity.client.4.50.0.nupkg.sha512",
+    "C:\\Users\\turka\\.nuget\\packages\\microsoft.identitymodel.abstractions\\6.22.0\\microsoft.identitymodel.abstractions.6.22.0.nupkg.sha512"
+  ],
+  "logs": []
+}
