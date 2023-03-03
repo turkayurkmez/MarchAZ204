@@ -120,7 +120,7 @@ async Task<string> ObtainTokenAsync(IPublicClientApplication app)
     }
     // Catch MSAL exceptions
     catch (MsalException ex)
-    {
+     {
         Console.WriteLine($"Failed to get token silently: {Environment.NewLine}{ex.Message}");
         throw;
     }

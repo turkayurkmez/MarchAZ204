@@ -1,0 +1,66 @@
+##################################################################################################
+# These commands use files located in the current folder and should be executed locally. 
+# Make sure you install Azure CLI  http://aka.ms/azcli
+###################################################################################################
+
+
+az group create --location westeurope --name RG-AzureCDN
+
+
+$cdnaccount=azure-cdn-$RANDOM
+$blobaccount=azureblob$RANDOM
+
+
+
+az storage account create --name $blobaccount --resource-group RG-AzureCDN --location koreasouth
+
+
+key=$(az storage account keys list  --account-name $blobaccount --query "[0].{Name:value}" -o tsv)
+
+
+az storage container create --name files --public-access container --account-name $blobaccount --account-key $key
+
+
+echo https://$blobaccount.blob.core.windows.net/files
+
+
+
+az storage blob upload --name big.gif -f big.gif -c files --account-name $blobaccount --account-key $key
+
+
+az storage blob upload --name cdn-demo.mp4 -f cdn-demo.mp4 -c files --account-name $blobaccount --account-key $key
+
+
+az storage blob upload --name demo.js -f demo.js -c files --account-name $blobaccount --account-key $key
+
+
+echo https://$blobaccount.blob.core.windows.net/files/big.gif
+echo https://$blobaccount.blob.core.windows.net/files/cdn-demo.mp4
+
+
+az storage blob service-properties update --account-name $blobaccount --static-website --index-document index.html --account-key $key
+
+
+sed -i "s/<blobaccount>/$blobaccount/" index.html 
+
+az storage blob upload  --account-name $blobaccount  --account-key $key --container-name '$web' --file index.html --name index.html
+
+
+url=$(az storage account show --name $blobaccount --query "primaryEndpoints.web" --output tsv)
+echo $url
+
+
+az cdn profile create --location westeurope --name $cdnaccount --resource-group RG-AzureCDN --sku Standard_Microsoft
+
+
+az cdn endpoint create --name $cdnaccount  --origin $blobaccount.blob.core.windows.net --origin-host-header $blobaccount.blob.core.windows.net --origin-path "/files" --profile-name $cdnaccount --resource-group RG-AzureCDN
+
+#wait time about 2 minutes
+
+#now you can test how it works from CDN URLs
+echo https://$cdnaccount.azureedge.net/big.gif
+echo https://$cdnaccount.azureedge.net/cdn-demo.mp4
+
+echo "please save following values for next demo: $cdnaccount" 
+echo "please save following values for next demo: $blobaccount" 
+

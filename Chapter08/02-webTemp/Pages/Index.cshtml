@@ -1,0 +1,15 @@
+﻿@page
+@inject IConfiguration Configuration
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <p>Mesaj: @Configuration["Config:DemoApp:Greeting"]</p>
+</div>
+<feature name="demofeature">
+    <h1>Demo feature enabled!</h1>
+</feature>
